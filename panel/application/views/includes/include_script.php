@@ -31,4 +31,3 @@
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="<?php echo base_url("Assets/")?>dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="<?php echo base_url("Assets/")?>dist/js/demo.js"></script>
