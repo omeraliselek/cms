@@ -27,6 +27,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -41,7 +47,8 @@
       <workItem from="1584991859563" duration="636000" />
       <workItem from="1584995074815" duration="18000" />
       <workItem from="1585042555313" duration="536000" />
-      <workItem from="1585067824128" duration="466000" />
+      <workItem from="1585067824128" duration="768000" />
+      <workItem from="1585119656624" duration="3692000" />
     </task>
     <servers />
   </component>
@@ -53,9 +60,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584995089879" />
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1585067830096">
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1585121205315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585067830096" />
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1585121205315" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1585119667439">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585119667439" />
   </component>
 </project>
