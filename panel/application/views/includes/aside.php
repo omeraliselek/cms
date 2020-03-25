@@ -29,7 +29,7 @@
                     <a href="pages/widgets.html" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
-                           Dashboard
+                 Başlangıç
 
                         </p>
                     </a>
@@ -39,7 +39,7 @@
                     <a href="pages/widgets.html" class="nav-link">
                         <i class="nav-icon fas fa-cog"></i>
                         <p>
-                           Settings
+                        Ayarlar
 
                         </p>
                     </a>
