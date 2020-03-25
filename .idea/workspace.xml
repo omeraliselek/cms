@@ -34,6 +34,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\cms\panel\application\views\dashboard_v" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -48,7 +53,7 @@
       <workItem from="1584995074815" duration="18000" />
       <workItem from="1585042555313" duration="536000" />
       <workItem from="1585067824128" duration="768000" />
-      <workItem from="1585119656624" duration="10546000" />
+      <workItem from="1585119656624" duration="11644000" />
     </task>
     <servers />
   </component>
@@ -56,6 +61,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="213" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585138059261">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1585138059261" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584995089879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
