@@ -86,7 +86,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="pages/widgets.html" class="nav-link">
+                    <a href="<?php echo base_url("Product");?>" class="nav-link">
                         <i class="nav-icon fas fa-cubes"></i>
                         <p>
                      Ürünler
