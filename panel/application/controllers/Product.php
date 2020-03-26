@@ -18,7 +18,7 @@ class Product extends CI_Controller {
       $viewData->subViewFolder="list";
 
 
-      $this->load->view("{$this->ViewFolder}/{$viewData->subViewFolder}/index",$viewData);
+      $this->load->view("{$viewData->ViewFolder}/{$viewData->subViewFolder}/index",$viewData);
 
   }
 
