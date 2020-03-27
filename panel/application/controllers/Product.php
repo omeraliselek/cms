@@ -56,7 +56,12 @@ class Product extends CI_Controller {
 
       else{
 
-          echo validation_errors();
+          $viewData = new stdClass();
+
+          $viewData->ViewFolder=$this->ViewFolder;
+          $viewData->subViewFolder="add";
+          $viewData->form_error=true;
+          $this->load->view("{$viewData->ViewFolder}/{$viewData->subViewFolder}/index",$viewData);
 
       }
 

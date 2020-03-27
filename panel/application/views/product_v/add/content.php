@@ -13,6 +13,10 @@
                     <div class="form-group">
                         <label for="exampleInputEmail1">Başlık</label>
                         <input type="text" name="title" class="form-control" placeholder="Enter ...">
+                        <?php if(isset($form_error)) {?>
+                             <sml><?php echo form_error("title"); ?></sml>
+
+                           <?php } ?>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Açıklama</label>
