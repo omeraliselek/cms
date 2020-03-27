@@ -7,7 +7,7 @@
                 </h3>
 
                 <div class="card-tools">
-                    <button type="button" class="btn btn-block btn-outline-success btn-sm"> <i class="fas fa-plus"></i> Yeni Ekle</button>
+                    <a href="<?php echo base_url("product/new_form")?>" class="btn btn-sm btn-info btn-outline"><i class="fa fa-pencil-square-o"></i> Yeni Ekle</a>
                 </div>
             </div>
 
@@ -15,7 +15,7 @@
             <div class="alert alert-info text-center">
 
 
-                Yeni ürün eklemek için <a href="">tıklayın</a>
+                Yeni ürün eklemek için <a href="<?php echo base_url("product/new_form")?>">tıklayın</a>
             </div>
 
             <?php }  else { ?>
@@ -50,8 +50,8 @@
                                 />
 
                                </td>
-                            <td><button type="button" class="btn btn-block btn-outline-danger btn-sm"><i class="fas fa-trash-alt"></i>  SİL</button> </td>
-                            <td><button type="button" class="btn btn-block btn-outline-success btn-sm"> <i class="fas fa-edit"></i> DÜZENLE</button></td>
+                            <td> <a href="#" class="btn btn-sm btn-danger btn-outline"><i class="fa fa-trash"></i> Sil</a> </td>
+                            <td><a href="#" class="btn btn-sm btn-info btn-outline"><i class="fa fa-pencil-square-o"></i> Düzenle</a></td>
 
                         </tr>
                     <?php } ?>
