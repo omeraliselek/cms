@@ -109,7 +109,7 @@ echo "Kayıt işlemi başarılı değildur ha";
 
   }
 
-    public function update($id)
+  public function update($id)
     {
         $this->load->library("form_validation");
         $this->form_validation->set_rules("title","Başlık","required|trim");
@@ -179,6 +179,31 @@ echo "Kayıt işlemi başarılı değildur ha";
 
 
     }
+
+  public function delete($id)
+
+  {
+
+    $delete =$this->product_model->delete(
+
+        array(
+
+            "id" =>$id,
+        )
+
+    );
+/* alert sistem eklenecek */
+    if($delete)
+    {
+    redirect(base_url("product"));
+    }
+
+    else{
+
+        redirect(base_url("product"));
+  }
+
+  }
 
 }
 
