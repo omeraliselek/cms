@@ -1,5 +1,5 @@
 <?php
-
+/* Product Tanımlamasını Yap */
 class Product_model extends CI_Model
 {
     public $tableName="products";
@@ -8,16 +8,30 @@ class Product_model extends CI_Model
         parent::__construct();
     }
 
-   public function get_all()
+
+    /*İd Göre Getir*/
+    public function get($where = array()){
+        return $this->db->where($where)->get($this->tableName)->row();
+    }
+
+    /*Veritabanından Hepsini Getir */
+   public function get_all($where = Array())
    {
 
-       return $this->db->get($this->tableName)->result();
+       return $this->db->where($where)->get($this->tableName)->result();
 
    }
 
+   /* veritabanına ekleme işlemi yap */
    public function add($data =array())
    {
        return $this->db->insert($this->tableName,$data);
 
+   }
+
+
+   public function update($where = array(), $data = array())
+   {
+       return $this->db->where($where)->update($this->tableName, $data);
    }
 }

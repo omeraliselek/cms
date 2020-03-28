@@ -26,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/panel/application/views/product_v/add" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/panel/application/views/product_v/update" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,11 +40,11 @@
       <recent name="C:\wamp64\www\cms\panel\application\views\dashboard_v" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\cms\panel\application\views\product_v\update" />
       <recent name="C:\wamp64\www\cms\panel\application\views\product_v\add" />
       <recent name="C:\wamp64\www\cms\panel\application\views\dashboard_v\update" />
       <recent name="C:\wamp64\www\cms\panel\application\views\dashboard_v\ad" />
       <recent name="C:\wamp64\www\cms\panel\application\views\product_v\list" />
-      <recent name="C:\wamp64\www\cms\panel\application\controllers" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -62,7 +62,8 @@
       <workItem from="1585042555313" duration="536000" />
       <workItem from="1585067824128" duration="768000" />
       <workItem from="1585119656624" duration="18969000" />
-      <workItem from="1585219748383" duration="18353000" />
+      <workItem from="1585219748383" duration="22080000" />
+      <workItem from="1585383169065" duration="3990000" />
     </task>
     <servers />
   </component>
@@ -82,13 +83,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="178" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1585226480997" />
-    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1585226524413">
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1585331367700">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1585226524413" />
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1585219751564">
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1585331367700" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1585383171776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585219751564" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585383171776" />
   </component>
 </project>
